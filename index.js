@@ -9,7 +9,7 @@ res.send('hi kids');
 res.send();
 });
 
-app.get('/route1', (req, res) => {
-res.send('moin männer')
+app.get('/:idk', (req, res) => {
+res.send(req.params);
 });
 
